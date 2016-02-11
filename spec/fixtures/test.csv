@@ -1,0 +1,92 @@
+﻿Plate ID,SUMbr-d8
+Plate Name,
+Plate Description,
+Scan ID,2/11/2016 8:57:25 AM
+Scan Description,
+Scan Result ID,2/11/2016 9:22:37 AM
+Scan Result Description,
+Software Version,3.0.3.2
+Application Name,Confluence
+Plate Type,24-Well Corning™ 3524 Plate
+Acquisition Start/End Times,2/11/2016 8:57:25 AM - 2/11/2016 9:00:27 AM
+Analysis Start Time,2/11/2016 9:22:37 AM
+User ID,Steve Pettitt
+
+Measurement Plate Maps
+Confluency (%),1,2,3,4,5,6
+A,
+B,,61.90545%,64.68607%,58.31772%,27.13809%,
+C,,55.73773%,48.69783%,43.32894%,55.90879%,
+D,
+
+Well Sampled (%),1,2,3,4,5,6
+A,
+B,,52.36466%,52.36466%,52.36466%,52.33113%,
+C,,52.36466%,52.36466%,52.36466%,52.36466%,
+D,
+
+Analysis Settings Plate Maps,1,2,3,4,5,6
+A,,,,,,,
+B,,2,2,2,2,,
+C,,2,2,2,2,,
+D,,,,,,,
+
+Focus Position Map,1,2,3,4,5,6
+A,,,,,,,
+B,,2.28305339813232,2.29808712005615,2.30631041526794,2.27497291564941,,
+C,,2.30404043197632,2.29821419715881,2.29611873626709,2.28006911277771,,
+D,,,,,,,
+
+
+
+Analysis Settings,Name,Version,Instance
+,Untitled Analysis Settings 1,1000,1
+General Settings,Item,Value
+,TargetPixelResolutionUM,2
+,bUseWellMask,True
+,WellMaskUsageMode,0
+,PercentWellMaskSize,100
+,WellMaskShapeOverride,0
+Identification Settings,Confluence Frame Settings
+,Item,Value
+,Algorithm,1
+,IntensityThreshold,15
+,SaturatedIntensity,0
+,Precision,0
+,BFSharpen,0
+,FilterSizeUM,8
+,BackgroundCorrection,True
+,SeparateTouchingBlobs,False
+,SeparateFilterSizeUM,3
+Pre-Filtering Settings,Confluence Feature Settings
+,Item,Value
+,MinClusterSizeUM,50
+
+Analysis Settings,Name,Version,Instance
+,sum149-conf,1000,2
+General Settings,Item,Value
+,TargetPixelResolutionUM,2
+,bUseWellMask,True
+,WellMaskUsageMode,0
+,PercentWellMaskSize,100
+,WellMaskShapeOverride,0
+Identification Settings,Confluence Frame Settings
+,Item,Value
+,Algorithm,1
+,IntensityThreshold,8
+,SaturatedIntensity,0
+,Precision,0
+,BFSharpen,0
+,FilterSizeUM,8
+,BackgroundCorrection,True
+,SeparateTouchingBlobs,False
+,SeparateFilterSizeUM,3
+Pre-Filtering Settings,Confluence Feature Settings
+,Item,Value
+,MinClusterSizeUM,200
+
+Classification Settings, -none-
+
+Image Channel Settings,Gain,Exposure,SetupMode,Illumination Source
+59fe4c5a-8602-4419-b228-b5dbc007df5d,0,1321 (ums),Always,BrightField
+

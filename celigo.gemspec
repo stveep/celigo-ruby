@@ -6,12 +6,12 @@ require 'celigo/version'
 Gem::Specification.new do |spec|
   spec.name          = "celigo"
   spec.version       = Celigo::VERSION
-  spec.authors       = ["stveep"]
+  spec.authors       = ["Stephen Pettitt"]
   spec.email         = ["spettitt@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Parser for outputs from Celigo analysis.}
+  spec.description   = %q{Parser for outputs from Celigo analysis. Currently only supports confluence analysis.}
+  spec.homepage      = "https://github.com/stveep/celigo"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
   # delete this section to allow pushing this gem to any host.
