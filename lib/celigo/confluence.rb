@@ -1,12 +1,13 @@
 require 'csv'
 
 class Celigo::Confluence
+  include Celigo
 
   class << self
     attr_accessor :maps_heading, :settings, :types
   end
   @maps_heading = "Measurement Plate Maps"
-  @settings = /Analysis Settings/
+  @settings = /\AAnalysis Settings\z/
   @types = {/\A24/ => :well24,
             /\A96/ => :well96,
             /\A6/ => :well6,
@@ -22,11 +23,9 @@ class Celigo::Confluence
     title = ""
     CSV.foreach(file) do |line|
       next unless first = line.shift
-
-
       if first.match Celigo::Confluence.settings
         maps == false
-        if settings = nil # First settings line
+        if settings == nil # First settings line
           settings = first
           next
         elsif settings = Celigo::Confluence.settings
@@ -53,7 +52,6 @@ class Celigo::Confluence
       @metadata[first] = single_value(line) unless maps
     end
     process_maps
-    puts self.inspect
   end
 
   def process_maps
